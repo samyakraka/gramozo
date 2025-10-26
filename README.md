@@ -1,6 +1,6 @@
-# Gramzo - AI Grammar & Content Assistant
+# Gramzo - AI Grammar & Content Assistant 📝✨
 
-A modern web application that provides AI-powered grammar correction and content humanization using Google's Gemini API.
+A modern, mobile-responsive web application that provides AI-powered grammar correction and content humanization using Google's Gemini API.
 
 ## Features
 
@@ -8,7 +8,8 @@ A modern web application that provides AI-powered grammar correction and content
 - **AI Content Humanization**: Transform AI-generated content to sound more natural, conversational, and human-like
 - **Split-Screen Interface**: Clean, intuitive interface with input on the left and output on the right
 - **Operation Panel**: Easy-to-use left sidebar for selecting between grammar correction and humanization
-- **Modern UI**: Responsive design with gradient backgrounds and smooth animations
+- **Modern UI**: Fully responsive design with professional colors and smooth animations
+- **Mobile-Friendly**: Optimized for all screen sizes from desktop to mobile
 
 ## Technology Stack
 
@@ -18,18 +19,40 @@ A modern web application that provides AI-powered grammar correction and content
 - **AI API**: Google Gemini API
 - **Icons**: Font Awesome
 
-## Installation
+## Installation & Local Setup
 
-1. Clone or download this project
-2. Install Python dependencies:
+1. **Clone or download this project**
+
+2. **Install Python dependencies:**
+
    ```bash
    pip install -r requirements.txt
    ```
-3. Run the application:
+
+3. **Set up environment variables:**
+
+   - Copy `.env.example` to `.env`:
+     ```bash
+     cp .env.example .env
+     ```
+   - Edit `.env` and add your Google Gemini API key:
+     ```
+     GEMINI_API_KEY=your_actual_api_key_here
+     ```
+   - Get your API key from: https://makersuite.google.com/app/apikey
+
+4. **Run the application locally:**
+
    ```bash
    python app.py
    ```
-4. Open your browser and navigate to `http://localhost:5000`
+
+   The app will start on `http://localhost:6000`
+
+5. **Open your browser and navigate to:**
+   ```
+   http://localhost:6000
+   ```
 
 ## Usage
 
